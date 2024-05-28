@@ -1,0 +1,46 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#remote_video {
+	width: 188.1vw;
+	/* width: 100%; */
+	/* max-width: 940px; */
+	position: absolute;
+	margin: auto;
+	left: -44vw;
+	right: 0;
+	top: -52vw;
+}
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+}
+.container{
+  background: transparent;
+/*  background-color: black; */
+/*  height: 100vh; */
+  display: flex;
+  justify-content: right; /* 20240304 justify-content: center; */
+  align-items: center;
+  position: absolute;
+  left: 16vw; top: 64vw; /* 82vw; *//* 20240304 left: 0; top: 20%; *//* 20240309 left: 0; top: 0%; */
+  width: 95%; height: 15%; /* 20240304 width: 100%; height: 90%; */ /* 20240309 width: 100%; height: 20%; */
+  overflow: visible;
+  z-index: 12345;
+  opacity: 10;
+  transform: scale(1.1, 1.1); /* 20240304 transform: scale(.88, .88); */
+}
+/* 2024.03.04 */
+#sound {
+  background: transparent; 
+  border: none;
+  padding: 0em 5em;
+  visibility: hidden;
+}
+#speaker {
+  width: 32px; /* 48px */
+  height: 32px; /* 48px */
+}
